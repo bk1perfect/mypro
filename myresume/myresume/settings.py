@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'apani_website.urls'
+ROOT_URLCONF = 'myresume.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'apani_website.wsgi.application'
+WSGI_APPLICATION = 'myresume.wsgi.application'
 
 
 # Database
